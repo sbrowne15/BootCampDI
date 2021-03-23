@@ -1,4 +1,4 @@
-import "../styles/statusTrack.scss";
+import "../Styles/StatusTrack.scss";
 import Task from "./Task";
 
 function StatusTrack(props) {
@@ -35,7 +35,7 @@ function StatusTrack(props) {
             <h3>{status}</h3>
             {taskList}
             <button onClick={handleAddEmpty} className="button addTask">
-                + Add Task
+                +
             </button>
         </div>
     );

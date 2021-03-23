@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import "../styles/App.scss";
-import StatusLine from "./StatusLine";
+import "../Styles/App.scss";
+import StatusLine from "./StatusTrack";
 
 function App() {
     const [tasks, setTasks] = useState([]);

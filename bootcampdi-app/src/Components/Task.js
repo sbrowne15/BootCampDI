@@ -1,4 +1,4 @@
-import "../styles/task.scss";
+import "../Styles/Task.scss";
 import { useState } from "react";
 
 function Task(props) {
@@ -6,7 +6,7 @@ function Task(props) {
 
     const [urgencyLevel, setUrgencyLevel] = useState(task.urgency);
     const [collapsed, setCollapsed] = useState(task.isCollapsed);
-    const [FormAction, setFormAction] = useState("");
+    const [formAction, setFormAction] = useState("");
 
     function setUrgency(event) {
         setUrgencyLevel(event.target.attributes.urgency.value);
@@ -141,3 +141,5 @@ function Task(props) {
         </div>
     );
 }
+
+export default Task;
