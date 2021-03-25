@@ -45,6 +45,8 @@ function Task(props) {
             newStatus = "Shelved";
         } else if (task.status === "Completed") {
             newStatus = "In Progress";
+        } else if (task.status === "Shelved") {
+            newStatus = "Identified";
         }
 
         if (newStatus !== "") {
